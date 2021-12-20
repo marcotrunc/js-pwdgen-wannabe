@@ -28,4 +28,4 @@ const passwordGenerate = firstName + lastName + favouriteColor;
 console.log(passwordGenerate);
 
 // Stampo la variabile passwordGenerate 
-passwordElement.innerHTML = passwordGenerate;
+passwordElement.innerHTML = passwordGenerate + 21;
