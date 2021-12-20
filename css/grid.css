@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+/* width */
+.w-100{
+    width: 100%;
+}
+/* height */
+
+/* Divisione in Colonne */
+.col-1{
+    flex-basis: calc(100% / 27);
+    max-width:calc(100% / 27);
+}
+.col-2{
+    flex-basis: calc(100% / 27 * 2);
+    max-width:calc(100% / 27 * 2);
+}
+.col-3{
+    flex-basis: calc(100% / 27 * 3);
+    max-width:calc(100% / 27 * 3);
+}
+.col-4{
+    flex-basis: calc(100% / 27 * 5);
+    max-width:calc(100% / 27 * 4);
+}
+.col-5{
+    flex-basis: calc(100% / 27 * 5);
+    max-width:calc(100% / 27 * 5);
+}
+.col-6{
+    flex-basis: calc(100% / 27 * 6);
+    max-width:calc(100% / 27 * 6);
+}
+.col-7{
+    flex-basis: calc(100% / 27 * 7);
+    max-width:calc(100% / 27 * 7);
+}
+.col-8{
+    flex-basis: calc(100% / 27 * 8);
+    max-width:calc(100% / 27 * 8);
+}
+.col-9{
+    flex-basis: calc(100% / 27 * 9);
+    max-width:calc(100% / 27 * 9);
+}
+.col-10{
+    flex-basis: calc(100% / 27 * 10);
+    max-width:calc(100% / 27 * 10);
+}
+.col-11{
+    flex-basis: calc(100% / 27 * 11);
+    max-width:calc(100% / 27 * 11);
+}
+.col-12{
+    flex-basis: calc(100% / 27 * 12);
+    max-width:calc(100% / 27 * 12);
+}
+
+/* offset */
+.offset-1{
+    margin-left: calc(100% / 27);
+}
+.offset-2{
+    margin-left: calc(100% / 27 * 2);
+}
+.offset-3{
+    margin-left: calc(100% / 27 * 3);
+}
+.offset-4{
+    margin-left: calc(100% / 27 * 4);
+}
+.offset-5{
+    margin-left: calc(100% / 27 * 5);
+}
+.offset-6{
+    margin-left: calc(100% / 27 * 6);
+}
+.offset-7{
+    margin-left: calc(100% / 27 * 7);
+}
+.offset-8{
+    margin-left: calc(100% / 27 * 8);
+}
+.offset-9{
+    margin-left: calc(100% / 27 * 9);
+}
+.offset-10{
+    margin-left: calc(100% / 27 * 10);
+}
+.offset-11{
+    margin-left: calc(100% / 27 * 11);
+}
+.offset-12{
+    margin-left: calc(100% / 27 * 12);
+}
+.offset-13{
+    margin-left: calc(100% / 27 * 13);
+}
+.offset-14{
+    margin-left: calc(100% / 27 * 14);
+}
+.offset-15{
+    margin-left: calc(100% / 27 * 15);
+}
+/* bk colour */
+.bk-black{
+    background-color: #161113;
+}
+.bk-dark-red{
+    background-color: #9a1112;
+}
+.bk-red{
+    background-color: #f4090d;
+}
+.bk-grey{
+    background-color: #c1cec6;
+}
+.bk-white{
+    background-color: #fffbfa;
+}
+.bk-goldenyellow{
+    background-color: #ec9a2c;
+}
+.bk-pink{
+    background-color: #fad993;
+}
+.bk-dark-brown{
+    background-color: #793201;
+}
+.bk-brown{
+    background-color: #AD6719;
+}
+.bk-light-brown{
+    background-color:#DA5B17;
+}
+.bk-blue{
+    background-color: #0318ba;
+}
+.bk-light-blue{
+    background-color: #4672dd;
+}
+.bk-yellow{
+    background-color:#F0D40C;
+}
+.bk-heavenly{
+    background-color: #84C3FF;
+}
+.bk-cloud{
+    background-color:#B9E0FE;
+}
+.bk-mush{
+    background-color:#DD571F;
+}
+.bk-whitesmoke{
+    background-color:#FFDDC7;
+}

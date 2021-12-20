@@ -20,12 +20,12 @@ const lastName = prompt('Inserisci il tuo cognome');
 console.log(lastName);
 
 // Chiedo all'utente il suo colore preferito
-const favouriteColor = prompt('qual è il tuo colore preferito?');
-console.log(favouriteColor);
+const favoriteColor = prompt('qual è il tuo colore preferito?');
+console.log(favoriteColor);
 
 // Dichiaro una variabile per la password
-const passwordGenerate = firstName + lastName + favouriteColor;
+const passwordGenerate = firstName + lastName + favoriteColor + 21;
 console.log(passwordGenerate);
 
 // Stampo la variabile passwordGenerate 
-passwordElement.innerHTML = passwordGenerate + 21;
+passwordElement.innerHTML = `La tua password è ${passwordGenerate}.`;
